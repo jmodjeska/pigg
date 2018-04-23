@@ -331,9 +331,9 @@
        */
       getImageSize: function(lastWindowWidth) {
         if (lastWindowWidth <= 640)
-          return 500;
+          return 100;
         else if (lastWindowWidth <= 1920)
-          return 500;
+          return 250;
         return 500;
       }
     };

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exampleproject2</title>
+  </head>
+  <body>
+    <h1>PIG Example Project 2</h1>
+    <p><a href="https://modjeska.us/diy-image-gallery/" target="_blank">DIY Image Gallery</a></p>
+    <div id="pig">
+      <img id='gsPreviewImg'>
+    </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.4/css/swipebox.min.css">
+    <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.4/js/jquery.swipebox.min.js"></script>
+    <script type="text/javascript" src="https://rawgit.com/jmodjeska/pigg/master/js/pig.js"></script>
+    <script type="text/javascript">
+      var imageData = [
+        {"filename": "vn.jpg", "aspectRatio": "1.3300"},
+        {"filename": "vn4.jpg", "aspectRatio": "1.3300"},
+        {"filename": "vn3.jpg", "aspectRatio": "1.3300"},
+        {"filename": "vn2.jpg", "aspectRatio": "1.6300"},
+      ];
+      var pig = new Pig(imageData, {
+        urlForSize: function(filename, size) {
+        return '' + 'img/' + size + '/' + filename;
+      },
+      addAnchorTag: true,
+      anchorTargetDir: "",
+      anchorClass: "swipebox"
+      }).enable();
+      ;( function( $ ) {
+      	$( '.swipebox' ).swipebox();
+      } )( jQuery );
+    </script>
+  </body>
+</html>

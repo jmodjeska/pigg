@@ -2,9 +2,11 @@
 
 ### -------------------------------------------------------------------------
 # PIGG: Progressive Image Grid Generator for PIG.js
-# (c) 2018 Jeremy Modjeska: https://github.com/jmodjeska/pigg/
+# (c) 2018 Jeremy Modjeska
+# Source: https://github.com/jmodjeska/pigg/
+# Instructions: https://modjeska.us/diy-image-gallery/
 #
-# Usage:
+# Command line usage:
 # perl pigg.pl /path/to/full-size-photos
 #
 # Output structure (original files untouched):

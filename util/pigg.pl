@@ -51,7 +51,7 @@ our $uri = 'https://yourwebsite.com/galleries/';
 our $flag_html = 'yes';
 
 # Do you want to output a WordPress shortcode when you create a gallery?
-our $flag_wordpress = 'yes';
+our $flag_wordpress = 'no';
 
 ###
 ### Globals
@@ -262,8 +262,10 @@ foreach ( @runtime_steps ) {
 # Finish
 print "\nDone!\n\n" . "-" x 64;
 print "\nUpload $basename to $uri$basename\n";
-print "\nWordPress shortcode for this gallery:\n\n" . $shortcode . "\n\n";
-
+if ( $flag_wordpress eq 'yes' ) {
+  print "\nWordPress shortcode for this gallery:\n\n" . $shortcode . "\n";
+}
+print "\n";
 exit 1;
 
 ###

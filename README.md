@@ -76,7 +76,7 @@ Upload example-project-3 to https://yourwebsite.com/galleries/example-project-3
 **Directory structure, after:**
 
 ```
-# ├── /$dir/
+ ├── /$dir/
    ├── [ original photos ]
    ├── index.html
    ├── img/

@@ -23,7 +23,7 @@ $pig_template = <<<HTML
       <img id='gsPreviewImg'>
     </div>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.4/css/swipebox.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.4/js/jquery.swipebox.min.js"></script>
+    <script src="https://i.modjeska.us/js/jquery.swipebox.min.js"></script>
     <script type="text/javascript" src="https://raw.githubusercontent.com/jmodjeska/pigg/master/js/pig.js"></script>
     <script type="text/javascript">
       var imageData = [

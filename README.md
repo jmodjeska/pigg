@@ -1,6 +1,8 @@
 # Progressive Image Grid Generator (PIGG): tools and automation for pig.js
 This project provides automation and WordPress integration for pig.js.
 
+![Example PIGG Image](https://i.modjeska.us/2018/04/gallery_final.png)
+
 ## JavaScript Source
 * [Original PIG.js](https://github.com/schlosser/pig.js) by Dan Schlosser
 * [Swipebox-enabled PIG.js](https://github.com/mark-rodgers/pig.js) by Mark Rodgers

@@ -1,4 +1,4 @@
-# PIGG Ruby (WIP)
+# PIGG Ruby
 
 This is a Ruby version of the Perl script for PIGG Automation described in Step 3 at https://modjeska.us/diy-image-gallery/.
 

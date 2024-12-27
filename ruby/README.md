@@ -9,6 +9,7 @@ This does not generate the HTML page. If anyone needs that, open an issue in thi
 ```
 brew install imagemagick
 gem install mini_magick
+gem install rspec
 ```
 
 ## Run tests

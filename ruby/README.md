@@ -8,12 +8,19 @@ This does not generate the HTML page. If anyone needs that, open an issue in thi
 
 ```
 brew install imagemagick
+gem install mini_magick
 ```
 
-## Ruby Script Usage
+## Run tests
+
+```
+cd /path/to/pigg/ruby
+rspec
+```
+
+## Ruby script usage
 
 ```
 cd /path/to/pigg/ruby
 ruby pigg.rb /path/to/pigg/example-project-3/
 ```
-

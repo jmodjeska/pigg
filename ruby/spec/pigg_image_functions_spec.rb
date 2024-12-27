@@ -3,10 +3,10 @@
 require_relative '../lib/pigg_image_functions'
 
 MANIFEST = [
-  { 'filename' => 'vn.jpg', 'aspectRatio' => '1.3300' },
-  { 'filename' => 'vn2.jpg', 'aspectRatio' => '1.6300' },
-  { 'filename' => 'vn3.jpg', 'aspectRatio' => '1.3300' },
-  { 'filename' => 'vn4.jpg', 'aspectRatio' => '1.3300' }
+  '{ "filename": "vn.jpg", "aspectRatio": "1.3300" }',
+  '{ "filename": "vn2.jpg", "aspectRatio": "1.6300" }',
+  '{ "filename": "vn3.jpg", "aspectRatio": "1.3300" }',
+  '{ "filename": "vn4.jpg", "aspectRatio": "1.3300" }'
 ].freeze
 
 describe 'Image manipulation functions' do

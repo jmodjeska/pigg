@@ -34,7 +34,7 @@ class PiggImageFunctions
     manifest = []
     list_of_image_files.each do |file|
       ratio = aspect_ratio("#{dir}/#{file}")
-      manifest << { 'filename' => file, 'aspectRatio' => ratio }
+      manifest << "{ \"filename\": \"#{file}\", \"aspectRatio\": \"#{ratio}\" }"
     end
     return manifest
   end

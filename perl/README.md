@@ -1,6 +1,6 @@
 # PIGG Perl
 
-As of December 2024, YMMV on this. I'm no longer able to get Image::Scale to work on MacOS.
+:red_circle: As of December 2024, I'm no longer able to get Image::Scale to work on MacOS. YMMV with this Perl script. You might consider using the [Ruby version](https://github.com/jmodjeska/pigg/tree/main/ruby) instead.
 
 #### Configure `utils/pigg.pl` for your server
 

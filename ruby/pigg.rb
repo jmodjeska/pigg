@@ -43,5 +43,5 @@ print '-=> Generating image manifest for use as a JS var ...'
 manifest = @pigg.create_image_manifest(@images_dir, images_list)
 manifest.nil? || manifest.empty? ? err('Manifest failed') : ok
 puts "\n        var imageData = ["
-puts(manifest.map { |e| "          #{e},\n" })
+puts(manifest.sort.map { |e| "          #{e},\n" })
 puts "        ]\n\n"

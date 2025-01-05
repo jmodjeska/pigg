@@ -2,15 +2,22 @@
 <html>
   <head>
     <title>PIG Example Project 1</title>
+    <style>
+      body {
+        font: 12px/1.2 Arial, Helvetica, sans-serif;
+        color: #333;
+        background-color: #efefef;
+      }
+      h1 { font-size: 24px; }
+    </style>
   </head>
   <body>
     <h1>PIG Example Project 1</h1>
-    <p><a href="https://modjeska.us/diy-image-gallery/" target="_blank">DIY Image Gallery</a></p>
     <div id="pig">
       <img id='gsPreviewImg'>
     </div>
     <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
-    <script type="text/javascript" src="https://rawgit.com/schlosser/pig.js/master/src/pig.min.js"></script>
+    <script type="text/javascript" src="../js/pig.js"></script>
     <script type="text/javascript">
       var imageData = [
         {"filename": "vn.jpg", "aspectRatio": "1.3300"},
@@ -24,5 +31,7 @@
       },
       }).enable();
     </script>
+    <br>
+    <p><a href="https://modjeska.us/diy-image-gallery/" target="_blank">DIY Image Gallery</a></p>
   </body>
 </html>
